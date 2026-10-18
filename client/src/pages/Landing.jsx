@@ -35,6 +35,7 @@ export default function Landing() {
         <Link to="/" className="logo"><img src="/icon.svg" alt="" />InvoiceFlow</Link>
         <nav>
           <a href="#features">Features</a>
+          <Link to="/guide">Guide</Link>
           <a href="#developer">Developer</a>
           {user ? <Link className="btn primary" to="/dashboard">Open dashboard</Link> : <Link className="btn" to="/login">Log in</Link>}
         </nav>
@@ -49,6 +50,7 @@ export default function Landing() {
             <button className="btn primary big" onClick={tryDemo} disabled={busy}>{busy ? "Opening the demo…" : "▶ Try the demo, no sign-up"}</button>
             <Link className="btn big" to="/register">Create a free account</Link>
           </div>
+          <p className="muted small" style={{ margin: "10px 0 0" }}>New here? Read the <Link to="/guide">step-by-step guide</Link>.</p>
           {error && <div className="error-box" style={{ marginTop: 14 }}>{error}</div>}
           <small className="muted">The demo opens a private sample account with clients and invoices. It's deleted after 24 hours.</small>
         </div>

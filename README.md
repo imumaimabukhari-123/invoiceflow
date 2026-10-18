@@ -46,7 +46,7 @@ server/            Express API
   routes/          auth, clients, invoices, dashboard
 api/index.js       Vercel entry: exports the Express app
 client/            React app (Vite)
-  src/pages/       Landing, Login/Register, Dashboard, Invoices, InvoiceForm, InvoiceView, Clients, Settings
+  src/pages/       Landing, Guide, Login/Register, Dashboard, Invoices, InvoiceForm, InvoiceView, Clients, Settings
 ```
 
 ## Run it on your computer

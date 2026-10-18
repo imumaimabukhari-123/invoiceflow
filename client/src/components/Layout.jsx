@@ -7,6 +7,7 @@ const NAV = [
   ["/invoices", "🧾", "Invoices"],
   ["/clients", "👥", "Clients"],
   ["/settings", "⚙️", "Settings"],
+  ["/guide", "📖", "Guide"],
 ];
 
 export default function Layout({ children }) {

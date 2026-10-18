@@ -9,6 +9,7 @@ import InvoiceForm from "./pages/InvoiceForm.jsx";
 import InvoiceView from "./pages/InvoiceView.jsx";
 import Clients from "./pages/Clients.jsx";
 import Settings from "./pages/Settings.jsx";
+import Guide from "./pages/Guide.jsx";
 
 function Private({ children }) {
   const { user, loading } = useAuth();
@@ -23,6 +24,7 @@ export default function App() {
   return (
     <Routes>
       <Route path="/" element={<Landing />} />
+      <Route path="/guide" element={<Guide />} />
       <Route path="/login" element={user ? <Navigate to="/dashboard" replace /> : <AuthPage mode="login" />} />
       <Route path="/register" element={user ? <Navigate to="/dashboard" replace /> : <AuthPage mode="register" />} />
       <Route path="/dashboard" element={<Private><Dashboard /></Private>} />
