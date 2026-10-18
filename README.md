@@ -2,7 +2,7 @@
 
 A full-stack **MERN** app (MongoDB, Express, React, Node.js) for freelancers and small businesses: create professional invoices, track who has paid, manage clients, and see your income at a glance.
 
-**Live demo:** _coming soon_ · Click **Try the demo** to open a private sample account, no sign-up needed.
+**Live demo:** https://invoiceflow-omega-liard.vercel.app · Click **Try the demo** to open a private sample account, no sign-up needed.
 
 ![Dashboard: paid, outstanding, overdue and draft totals, a 6-month income chart and invoices that need attention](docs/dashboard.png)
 
